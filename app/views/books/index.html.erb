@@ -1,0 +1,7 @@
+
+<% for book in @books do  %>
+  <h2><%= book.title %></h2>
+  <p><%= book.thoughts %></p>
+  <% end %>
+
+<%= will_paginate @books %>
